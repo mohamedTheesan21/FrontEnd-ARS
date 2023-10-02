@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airline Reservation System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body id="search">
+    <header>
+        <h1>B Airline Reservation System</h1>
+    </header>
+
+    <section id="search">
+        <h2>Search for Flights</h2>
+        <form id="flight-search-form">
+            <label for="departure">Departure:</label>
+            <select id="departure" name="departure" required>
+                <option value="New York">New York</option>
+                <option value="Los Angeles">Los Angeles</option>
+                <option value="Chicago">Chicago</option>
+                <!-- Add more options as needed -->
+            </select>
+
+            <label for="destination">Destination:</label>
+            <select id="destination" name="destination" required>
+                <option value="London">London</option>
+                <option value="Paris">Paris</option>
+                <option value="Tokyo">Tokyo</option>
+                <!-- Add more options as needed -->
+            </select>
+
+            <label for="departure-date">Departure Date:</label>
+            <input type="date" id="departure-date" name="departure-date" required>
+
+            <button type="submit">Search</button>
+        </form>
+    </section>
+
+    <section id="flight-list">
+        <h2>Available Flights</h2>
+        <ul id="flight-results">
+            <!-- Flight search results will be displayed here -->
+        </ul>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
