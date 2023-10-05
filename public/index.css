@@ -1,7 +1,7 @@
 body {
   font-family: sans-serif;
   margin: 0;
-  background-image: url('images/plane4.jpeg'); /* Replace 'your-image-file.jpg' with the actual file name and path */
+  background-image: url('/images/plane4.jpeg'); /* Replace 'your-image-file.jpg' with the actual file name and path */
   background-size: cover; /* Ensures the image covers the entire background */
   background-repeat: no-repeat; /* Prevents image repetition */
   background-attachment: fixed; /* Fixes the background image, so it doesn't scroll with the content */
